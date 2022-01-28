@@ -1,0 +1,11 @@
+@mixin responsive($screen) {
+  @media screen and (max-width: $screen) {
+    @content;
+  }
+}
+
+@mixin text($fs, $fw, $color) {
+  font-size: $fs;
+  font-weight: $fw;
+  color: $color;
+}

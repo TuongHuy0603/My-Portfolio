@@ -1,0 +1,713 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Portfolio</title>
+    <link rel="shortcut icon" href="./assets/icon/logo_color.ico" type="image/x-icon">
+
+    <!-- MATERIAL ICON -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+    <!-- FONTAWESOME ICON -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css" rel="stylesheet">
+
+    <!-- GOOGLE FONT -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+TC:wght@300;400;500;700&display=swap"
+        rel="stylesheet">
+
+    <link rel="stylesheet" href="./assets/fonts/logo.css">
+
+    <!-- MATERIALIZE CSS -->
+    <link rel="stylesheet" href="./css/materialize.min.css">
+
+    <!-- SWIPER -->
+    <link rel="stylesheet" href="./css/swiper-bundle.min.css">
+
+    <!-- ANIMATE CSS -->
+    <link rel="stylesheet" href="./css/animate.min.css">
+
+    <!-- MAIN CSS -->
+    <link rel="stylesheet" href="./css/main.css">
+</head>
+
+<body class="preloading">
+    
+    <!-- //////// START /////// -->
+    <!-- HEADER -->
+    <header id="header" class="section scrollspy">
+        <div class="header__navbar">
+            <nav class="navbar__config">
+                <div class="nav-wrapper ">
+                    <a href="index.html" class="brand-logo logo__config ">
+                        <i class="icon-logo_q"></i>
+                        <img src="./assets/img/SVG/logoQ_color.svg" alt="">
+                    </a>
+                  
+                    <div class="header__sidebar hide-on-large-only" id="sidebar">
+                        <ul class="sidebar__config" id="side-nav">
+                            <li class="nav-item__sm"><a href="#home">Home</a></li>
+                            <li class="nav-item__sm"><a href="#about">About</a></li>
+                            <li class="nav-item__sm"><a href="#resume">Resume</a></li>
+                            <li class="nav-item__sm"><a href="#skills">Skills</a></li>
+                            <li class="nav-item__sm"><a href="#portfolio">Portfolio</a></li>
+                            <li class="nav-item__sm"><a href="#footer">Contact</a></li>
+                        </ul>
+                    </div>
+                    <ul id="navbar__pages" class="right hide-on-med-and-down">
+                        <li class="nav-item"><a href="#home">Home</a></li>
+                        <li class="nav-item"><a href="#about">About</a></li>
+                        <li class="nav-item"><a class="nav-item" href="#resume">Resume</a></li>
+                        <li class="nav-item"><a class="nav-item" href="#skills">Skills</a></li>
+                        <li class="nav-item"><a href="#portfolio">Portfolio</a></li>
+                        <li class="nav-item"><a href="#footer">Contact</a></li>
+                    </ul>
+                </div>
+            </nav>
+        </div>
+    </header>
+
+    <!-- HOME -->
+    <section id="home" class="section scrollspy">
+        <div class="home__container">
+            <div class="row">
+                <div class="col s12 l5 home__about">
+                    <div class="home__about__content">
+                        <p class="animate__animated animate__fadeInLeft wow" data-wow-delay="1s">Welcome!</p>
+                        <div class="home__name animate__animated animate__fadeInLeft wow" data-wow-delay="1.2s">
+                            <h1 id="typing">I'm Ta Tuong Huy <span id="typingText"></span>
+                            </h1>
+                            
+                            <span class="item">a Front-end Developer</span>
+                        </div>
+                        <p class="home__brief animate__animated animate__fadeInLeft wow" data-wow-delay="1.4s">
+                            I'm passionate about
+                            learning new
+                            technologies and always
+                            keep concentrated on improving my self skills. Being patient
+                            and responsible for working help me implement completely assigned tasks.</p>
+                    </div>
+                    <div class="home__about__cv animate__animated animate__fadeInLeft wow" data-wow-delay="1.6s">
+                        <button class="btn btn-cv darken-4 waves-light waves-effect">
+                            <a href="./assets/files/Vu_The_Quan_CV.pdf" download="Vu_The_Quan_CV">
+                                <i class="material-icons">file_download</i>
+                                Download CV
+                            </a>
+                        </button>
+                        <div class="button__shadow hide-on-small-and-down"></div>
+                    </div>
+                </div>
+                <div class="col s12 l7 home__img hide-on-med-and-down">
+                    <div class="home__img__block">
+                        <img class="potrait-1 animate__animated animate__fadeInUp wow" data-wow-delay="1s"
+                            src="./assets/img/potrait.png" alt="">
+                        <div class="circle__background animate__animated animate__zoomIn animate__cubic wow"
+                            data-wow-delay="4s"></div>
+                    </div>
+                </div>
+            </div>
+            <div class="home__social hide-on-small-and-down animate__animated animate__fadeIn wow" data-wow-delay="1.5s"
+                id="mySocial">
+                <div class="social__container">
+                    <ul id="social__link" class="show">
+                        <li>
+                            <a class="facebook" href="https://www.facebook.com/eresh38111/" target="_blank">
+                                <i class="fab fa-facebook-f"></i>
+                                <div class="tooltip">
+                                    <span>My Facebook</span>
+                                </div>
+                            </a>
+                        </li>
+                     
+                        <li>
+                            <a class="git" href="https://github.com/tuonghuy0603" target="_blank">
+                                <i class="fab fa-github"></i>
+                                <div class="tooltip">
+                                    <span>My Github</span>
+                                </div>
+                            </a>
+                        </li>
+                        <li>
+                            <a class="codepen" href="https://www.linkedin.com/in/t%C6%B0%E1%BB%9Dng-huy-3289b5228/" target="_blank">
+                                <i class="fab fa-linkedin"></i>
+                                <div class="tooltip">
+                                    <span>My linkedin</span>
+                                </div>
+                            </a>
+                        </li>
+                    </ul>
+                    <a class="social__menu" href="#!">
+                        <i class="fa fa-share-alt"></i>
+                        <div class="tooltip">
+                            <span>See my links</span>
+                        </div>
+                    </a>
+                </div>
+
+            </div>
+            <a href="#about" class="home__see-more hide-on-med-and-down animate__animated animate__fadeInUp wow"
+                data-wow-delay="5s">
+                <span class="dot"></span>
+                <span class="line"></span>
+            </a>
+        </div>
+        <img class="home__portrait hide-on-small-and-down hide-on-large-only hide-on-extra-large-only animate__animated animate__fadeInUp wow"
+            data-wow-delay="4.2s" src="./assets/img/potrait.png" alt="">
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section scrollspy">
+        <div class="about__background"></div>
+        <div class="about__container container animate__animated animate__fadeInUp wow">
+            <h1 class="section__title animate__animated animate__fadeInUp delay-10 wow"><span>About</span>
+                <span>Me</span>
+            </h1>
+            <div class="row">
+                <div class="col s12 l6 about__img animate__animated animate__fadeInLeft delay-5 wow">
+                    <div class="img__container">
+                        <img style="width : 100%;height:100%" src="./assets/img/avt.png" alt="">
+                    </div>
+                </div>
+                <div class="col s12 l6 about__content">
+                    <ul>
+                        <li class="animate__animated animate__fadeInRight delay-5 wow">
+                            <p class="about__item">
+                                <span class="about__icon">
+                                    <i class="material-icons">person</i>Name:
+                                </span>
+                                <span class="about__text">
+                                   Ta Tuong Huy
+                                </span>
+                            </p>
+                        </li>
+                        <li class="animate__animated animate__fadeInRight delay-7 wow">
+                            <p class="about__item">
+                                <span class="about__icon">
+                                    <i class="material-icons">location_on</i>Address:
+                                </span>
+                                <span class="about__text">
+                                   Thanh Da, Binh Thanh , TP.HCM
+                                </span>
+                            </p>
+
+                        </li>
+                        <li class="animate__animated animate__fadeInRight delay-9 wow">
+                            <p class="about__item">
+                                <span class="about__icon">
+                                    <i class="material-icons">email</i>Email:
+                                </span>
+                                <span class="about__text">
+                                   eresh38111@gmail.com
+                                </span>
+                            </p>
+
+                        </li>
+                        <li class="animate__animated animate__fadeInRight delay-11 wow">
+                            <p class="about__item">
+                                <span class="about__icon">
+                                    <i class="material-icons">phone</i>Phone:
+                                </span>
+                                <span class="about__text">
+                                    0352512968
+                                </span>
+                            </p>
+
+                        </li>
+                        <li class="about__social animate__animated animate__fadeInRight delay-13 wow">
+                            <a class="facebook" href="https://www.facebook.com/eresh38111/" target="_blank">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                           
+                            <a class="git" href="https://github.com/TuongHuy0603" target="_blank">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a class="codepen" href="https://www.linkedin.com/in/t%C6%B0%E1%BB%9Dng-huy-3289b5228/" target="_blank">
+                                <i class="fab fa-linkedin"></i>
+                            </a>
+                        </li>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- RESUME -->
+    <section id="resume" class="section scrollspy">
+        <div class="resume__container container">
+            <h1 class="section__title animate__animated animate__fadeInUp delay-10 wow"><span>My</span>
+                <span>Resume</span>
+            </h1>
+            <div class="row">
+                <div class="col s12 l6 resume__experience animate__animated animate__fadeInLeft delay-5 wow">
+                    <div class="row">
+                        <div class="col s1 m2 l3 experience__title col__config">
+                            <h3 class="side-title">EXPERIENCE</h3>
+                        </div>
+                        <div class="col s11 m10 l9 col__config">
+                         
+                            <div class="resume__block">
+                                <div m={2}
+                                    class="personalproject block__content animate__animated animate__zoomIn delay-10 animate__cubic animate__fast wow">
+                                    <h4>Personal Projects</h4>
+                                    <p class="block__time">
+                                        July 2020 - Present
+                                    </p>
+                                    <div class="block__text">
+                                        <ul>
+                                            <li>Learning and practicing with many Front-end projects</li>
+                                            <li>Working on my own projects with learned Front-end skills</li>
+                                        </ul>
+
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col s12 l6 resume__education  animate__animated animate__fadeInRight delay-5 wow">
+                    <div class="row">
+                        <div class="col s11 m10 l9 col__config">
+                            <div class="resume__block">
+                                <div
+                                    class="block__content  animate__animated animate__zoomIn delay-10 animate__cubic animate__fast wow">
+                                    <h4>HUTECH University of Technology - Vietnam , TP.HCM
+                                    </h4>
+                                    <p class="block__time">
+                                        2018/08 - Present
+                                    </p>
+                                    <div class="block__text">
+                                        <ul>
+                                            <li class="bachelor">Specialization: Software engineering</li>
+                                           
+                                            <li>GPA: 3.0/4</li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="resume__block ">
+                                <div
+                                    class="block__content animate__animated animate__zoomIn delay-10 animate__cubic animate__fast wow">
+                                    <h4>Cybersoft - Cyberlearn Programing Education Center</h4>
+                                    <p class="block__time">
+                                        September 2020 - Present
+                                    </p>
+                                    <div class="block__text">
+                                        <ul>
+                                            
+                                            <li><span>Front-end Foundation course</span>: basic knowledge of HTML5,
+                                                CSS3, Boostrap 4,
+                                                SASS/SCSS, Javascript (ES5/ES6), Jquery, AJAX,
+                                                Git, </li>
+                                                <li><span>Front-end Master ReactJS course</span>: Basic knowlededge of React, Redux, Hook </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col s1 m2 l3 education__title col__config">
+                            <h3 class="side-title">EDUCATION</h3>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section scrollspy">
+        <div class="skills__container container">
+            <h1 class="section__title animate__animated animate__fadeInUp delay-10 wow"><span>My</span>
+                <span>Skills</span>
+            </h1>
+            <div class="row">
+                <div class="col-s12">
+                    <ul class="hide-on-med-and-down skills__lg">
+                        <li class="animate__animated animate__fadeInRight delay-2 wow">
+                            <span class="skills__unit">
+                                <i class="fa fa-circle"></i> HTML/CSS</span>
+                            <span class="skills__item delay-1">
+                                <img src="./assets/img/SVG/html5.svg" alt="skills-logo">
+                                <svg></svg>
+                            </span>
+                            <span class="skills__item delay-2">
+                                <img src="./assets/img/SVG/css-3.svg" alt="skills-logo">
+                            </span>
+                            <span class="skills__item delay-3">
+                                <img src="./assets/img/SVG/bootstrap-4.svg" alt="skills-logo">
+                            </span>
+                            <span class="skills__item delay-4">
+                                <img src="./assets/img/SVG/materialize.svg" alt="skills-logo">
+                            </span>
+                            <span class="skills__item delay-5">
+                                <img src="./assets/img/SVG/sass-1.svg" alt="skills-logo">
+                            </span>
+                            <span class="skills__item skills__text delay-6">
+                                Responsive
+                            </span>
+                        </li>
+                        <li class="animate__animated animate__fadeInRight delay-4 wow">
+                            <span class="skills__unit"><i class="fa fa-circle"></i> Javascript</span>
+                            <span class="skills__item skills__text delay-1">
+                                ES5/ES6
+                            </span>
+                            <span class="skills__item delay-2">
+                                <img src="./assets/img/SVG/jquery-1.svg" alt="skills-logo">
+                            </span>
+                            <span class="skills__item skills__text delay-3">
+                                AJAX
+                            </span>
+                            <span class="skills__item skills__text delay-4">
+                                RESTfull API
+                            </span>
+                            <span class="skills__item skills__text delay-5">
+                                AXIOS
+                            </span>
+                        </li>
+                        <li class="animate__animated animate__fadeInRight delay-6 wow">
+                            <span class="skills__unit"><i class="fa fa-circle"></i> ReactJs</span>
+                            <span class="skills__item skills__text delay-1">
+                                ReactJs basic
+                            </span>
+                            <span class="skills__item skills__text delay-2">
+                                Router
+                            </span>
+                            <span class="skills__item skills__text delay-3">
+                                Redux
+                            </span>
+                            <span class="skills__item skills__text delay-4">
+                                React Hooks
+                            </span>
+                            <span class="skills__item skills__text delay-4">
+                                AntDesign
+                            </span>
+                            <span class="skills__item skills__text delay-4">
+                              Redux-saga
+                            </span>
+                            <span class="skills__item skills__text delay-4">
+                                Redux-thunk
+                              </span>
+                              <span class="skills__item skills__text delay-4">
+                                Tinycloud
+                              </span>
+                        </li>
+                        <li class="animate__animated animate__fadeInRight delay-10 wow">
+                            <span class="skills__unit"><i class="fa fa-circle"></i> Git</span>
+                            <span class="skills__item skills__text">
+                                Git basic
+                            </span>
+                        </li>
+                
+                        <li class="animate__animated animate__fadeInRight delay-14 wow">
+                            <span class="skills__unit"><i class="fa fa-circle"></i> Soft skills</span>
+                            <span class="skills__item skills__text delay-1">
+                                Teamwork
+                            </span>
+                            <span class="skills__item skills__text delay-2">
+                                Self study
+                            </span>
+                        </li>
+                        <!-- <li class="animate__animated animate__fadeInRight delay-16 wow">
+                            <span class="skills__unit"><i class="fa fa-circle"></i> Languages</span>
+                            <span class="skills__item skills__text skills__item--long delay-1">
+                                English 720 Toeic (11/2020)
+                            </span>
+                         
+                        </li> -->
+                    </ul>
+                    <ul class="hide-on-large-only collapsible skills__md wow">
+                        <li class="animate__animated animate__fadeInRight delay-2 wow">
+                            <div class="collapsible-header">
+                                <span class="skills__unit">
+                                    <i class="fa fa-circle"></i> HTML/CSS</span>
+                            </div>
+
+                            <div class="collapsible-body">
+                                <span class="skills__item delay-1">
+                                    <img src="./assets/img/SVG/html5.svg" alt="skills-logo">
+                                </span>
+                                <span class="skills__item delay-2 ">
+                                    <img src="./assets/img/SVG/css-3.svg" alt="skills-logo">
+                                </span>
+                                <span class="skills__item delay-3 ">
+                                    <img src="./assets/img/SVG/bootstrap-4.svg" alt="skills-logo">
+                                </span>
+                                <span class="skills__item delay-4 ">
+                                    <img src="./assets/img/SVG/sass-1.svg" alt="skills-logo">
+                                </span>
+                           
+                                <span class="skills__item skills__text delay-5 ">
+                                    Responsive
+                                </span>
+                            </div>
+                        </li>
+                        <li class="animate__animated animate__fadeInRight delay-4 wow">
+                            <div class="collapsible-header">
+                                <span class="skills__unit"><i class="fa fa-circle"></i> Javascript</span>
+                            </div>
+                            <div class="collapsible-body">
+                                <span class="skills__item skills__text delay-1">
+                                    ES5/ES6
+                                </span>
+                                <span class="skills__item delay-2">
+                                    <img src="./assets/img/SVG/jquery-1.svg" alt="skills-logo">
+                                </span>
+                                <span class="skills__item skills__text delay-3">
+                                    AJAX
+                                </span>
+                                <span class="skills__item skills__text delay-4">
+                                    RESTfull API
+                                </span>
+                                <span class="skills__item skills__text delay-5">
+                                    AXIOS
+                                </span>
+                            </div>
+                        </li>
+                        <li class="animate__animated animate__fadeInRight delay-6 wow">
+                            <span class="skills__unit"><i class="fa fa-circle"></i> ReactJs</span>
+                            <span class="skills__item skills__text delay-1">
+                                ReactJs basic
+                            </span>
+                            <span class="skills__item skills__text delay-2">
+                                Router
+                            </span>
+                            <span class="skills__item skills__text delay-3">
+                                Redux
+                            </span>
+                            <span class="skills__item skills__text delay-4">
+                                React Hooks
+                            </span>
+                            
+                        </li>
+                        <li class="animate__animated animate__fadeInRight delay-8 wow">
+                            <div class="collapsible-header">
+                                <span class="skills__unit"><i class="fa fa-circle"></i> Git</span>
+                            </div>
+                            <div class="collapsible-body">
+                                <span class="skills__item skills__text">
+                                    Git basic
+                                </span>
+                            </div>
+
+                        </li>
+                        <li class="skills__knowledge animate__animated animate__fadeInRight delay-8 wow">
+                            <div class="collapsible-header">
+                                <span class="skills__unit"><i class="fa fa-circle"></i> Knowledge base</span>
+                            </div>
+                            <div class="collapsible-body">
+                                <span class="skills__item skills__text delay-1">
+                                    OOP
+                                </span>
+                                <span class="skills__item skills__text skills__item--long delay-2">
+                                    Basic of Data Structure and Algorithms 
+                                </span>
+                            </div>
+
+                        </li>
+                        <li class="animate__animated animate__fadeInRight delay-10 wow">
+                            <div class="collapsible-header">
+                                <span class="skills__unit"><i class="fa fa-circle"></i> Soft skills</span>
+                            </div>
+                            <div class="collapsible-body">
+                                <span class="skills__item skills__text delay-1">
+                                    Teamwork
+                                </span>
+                                <span class="skills__item skills__text delay-2">
+                                    Self study
+                                </span>
+                            </div>
+                        </li>
+                        <li class="skills__language animate__animated animate__fadeInRight delay-12 wow">
+                            <div class="collapsible-header">
+                                <span class="skills__unit"><i class="fa fa-circle"></i> Languages</span>
+                            </div>
+                            <div class="collapsible-body">
+                                <span class="skills__item skills__text skills__item--long delay-1">
+                                    English 720 Toeic (11/2020)
+                                </span>
+                             
+                            </div>
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="skills__bg hide-on-med-and-down">
+            <img src="./assets/img/sqBG_1.svg" alt="">
+        </div>
+    </section>
+
+    <!-- PORTFOLIO -->
+    <section id="portfolio" class="section scrollspy">
+        <div class="portfolio__container container">
+            <h1 class="section__title animate__animated animate__fadeInUp delay-10 wow"><span>My</span>
+                <span>Portfolio</span>
+            </h1>
+           
+           
+                <div class="swiper-container">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide project  animate__animated animate__fadeInUp delay-5 wow">
+                            <div class="project__img" id="project1">
+                                <a class="modal-trigger hide-on-small-only" href="#video1"><i
+                                        class="material-icons">play_circle_outline</i></a>
+                            </div>
+                            <div class="project__detail">
+                                <h4>Jira Clone</h4>
+                                <p>
+                                     Nov 2021 - Dec 2021
+                                </p>
+                                <ul>
+                                    <li class="hide-on-small-only">
+                                        <span class="detail__title ">Description:</span> <span>A clone
+                                            Jira
+                                            website with reactjs</span>
+                                    </li>
+                                    <li>
+                                        <span class="detail__title "></span> <span>Development</span>
+                                    </li>
+                                    <li>
+                                        <span class="detail__title">Technology:</span> <span>HTML5, CSS3, Bootstrap 4,
+                                            Redux, Redux-saga, Hooks, Tinycloud, Ant Design, Formik
+                                             </span>
+                                    </li>
+                                </ul>
+                                <div class="project__link">
+                                    <button class="btn btn-project">
+                                        <a href="https://github.com/TuongHuy0603/Jira" target="_blank">Link Github</a>
+                                    </button>
+                                    <button class="btn btn-demo">
+                                        <a href="https://github.com/TuongHuy0603/Jira" target="_blank">Link Demo</a>
+                                    </button>
+                                </div>
+                            </div>
+                        </div>
+                      
+                    </div>
+                    <!-- Add Pagination -->
+                    <div class="swiper-pagination pagination__config"></div>
+
+                    <!-- Add Arrows -->
+                    <div class="swiper-button-next next__config navigation"></div>
+                    <div class="swiper-button-prev prev__config navigation"></div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+ 
+
+    <!-- FOOTER -->
+    <footer id="footer" class="section scrollspy animate__animated animate__fadeInUp delay-5 wow">
+        <div class="footer__form">
+            <div class="footer__container container">
+                <h1 class="section__title animate__animated animate__fadeInUp delay-10 wow">Get in touch with
+                    <span>Me</span>
+                </h1>
+                <p class=" animate__animated animate__fadeInUp delay-10 wow">Thank you to spend your time visiting my
+                    page!
+                    Please feel free to send me some messages, hope that
+                    we
+                    can have a chance to work together.</p>
+                <div class="row  animate__animated animate__fadeInUp delay-7 wow">
+                    <div class="col s12 m6 l6 footer__info">
+                        <ul>
+                            <li>
+                                <p>Ta Tuong Huy</p>
+                            </li>
+                            <li>
+                                <span>
+                                    <i class="material-icons">location_on</i>
+                                    Location
+                                </span>
+                                <a href="https://goo.gl/maps/JnWKsFteUepwA8hA7" target="_blank">Thanh Da, TP.HCM</a>
+                            </li>
+                            <li>
+                                <span>
+                                    <i class="material-icons">phone</i>
+                                    Phone
+                                </span>
+                                <a href="#1">035-251-2968</a>
+                            </li>
+                            <li>
+                                <span>
+                                    <i class="fab fa-facebook-f"></i>
+                                    Facebook
+                                </span>
+                                <a href="https://www.facebook.com/eresh38111/" target="_blank">@tuonghuy</a>
+                            </li>
+                            <li>
+                                <span>
+                                    <i class="material-icons">email</i></i>
+                                    Email
+                                </span>
+                                <a href="#!">eresh38111@gmail.com</a>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class=" col s12 m6 l6 footer__send">
+                                    <form action="">
+                                        <div class="form-group">
+                                            <input type="text" id="name" name="Name" required>
+                                            <label for="name" class="form__input">Full name<sup>*</sup>
+                                            </label>
+                                            <span id="name__error">Name required</span>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" id="email" name="Email" required>
+                                            <label for="email" class="form__input">Email<sup>*</sup>
+                                            </label>
+                                            <span id="email__error">Email required</span>
+                                        </div>
+                                        <div class="form-group">
+                                            <input type="text" id="subject">
+                                            <label for="subject" class="form__input">Subject
+                                            </label>
+                                        </div>
+                                        <div class="form-group">
+                                            <textarea id="message" name="Message" cols="50" rows="10"></textarea>
+                                            <label for="message" class="form__input">Message<sup>*</sup>
+                                            </label>
+                                            <span id="message__error">Message required</span>
+                                        </div>
+                                        <button type="submit" class="btn btn-submit  waves-effect waves-light"
+                                            id="send">Send
+                                            Message</button>
+                                    </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="footer__copyright">
+            <p>© Copyright 2021 by Ta Tuong Huy</p>
+            <a class="btn-back-to-top" href="#"><i class="material-icons">keyboard_arrow_up</i></a>
+        </div>
+    </footer>
+    <!-- //////// END //////// -->
+    <!-- MATERIALIZE JS -->
+    <script src="./js/materialize.min.js"></script>
+    <script src="./js/materializeConfig.js"></script>
+
+    <!-- SWIPER -->
+    <script src="./js/swiper-bundle.min.js"></script>
+
+    <!-- WOWJS -->
+    <script src="./js/wow.min.js"></script>
+
+    <!-- Validation -->
+    <script src="./js/validation.js"></script>
+
+    <!-- MAIN JS -->
+    <script src="./js/main.js"></script>
+</body>
+
+</html>

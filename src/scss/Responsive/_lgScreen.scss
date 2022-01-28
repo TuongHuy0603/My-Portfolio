@@ -1,0 +1,320 @@
+#header {
+  @include responsive(1024px) {
+    .header__navbar {
+      .navbar__config {
+        ul {
+          li {
+            a {
+              font-size: $fs-html - 2;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+#home {
+  @include responsive(1024px) {
+    .home__container {
+      .home__about {
+        padding-top: $pd-20 + 10;
+        .home__about__content {
+          padding-bottom: $pd-8;
+          .home__name {
+            height: 130px;
+            h1 {
+              font-size: 2.5rem;
+              margin: $mg-4 0;
+              #typingText::after {
+                height: 40px;
+              }
+            }
+          }
+          .home__brief {
+            padding: $pd-6 $pd-4 $pd-6 0;
+            text-align: left;
+            font-size: $fs-1 + 1;
+          }
+        }
+        .home__about__cv {
+          .button__shadow {
+            margin-top: $mg-6;
+          }
+        }
+      }
+      .home__img {
+        .circle__background {
+          height: 400px;
+          width: 400px;
+          left: 62%;
+        }
+      }
+      .home__social {
+        right: -3rem;
+        bottom: 7%;
+        .social__container {
+          ul {
+            margin-bottom: $mg-4;
+          }
+        }
+      }
+      .home__see-more {
+        bottom: 7%;
+      }
+    }
+    &.home__portrait--lg {
+      .home__container {
+        .home__about {
+          padding-top: $pd-21;
+          .home__about__content {
+            .home__name {
+              margin-right: -200px;
+              h1 {
+                margin: $mg-8 0;
+              }
+            }
+          }
+          .home__brief {
+            padding: $pd-10 0;
+            margin-right: -50px;
+            font-size: $fs-html;
+          }
+        }
+        .home__img {
+          .potrait-1 {
+            left: 6%;
+            height: 66%;
+          }
+          .circle__background {
+            height: 500px;
+            width: 500px;
+            left: 55%;
+            top: 35%;
+          }
+        }
+        .home__see-more {
+          left: 0;
+          transform: unset;
+        }
+      }
+    }
+  }
+  @include responsive(1380px) {
+    .home__container {
+      .home__about {
+        padding-top: $pd-20 + 10;
+        .home__about__content {
+          .home__name {
+            h1 {
+              font-size: 3.8rem;
+              margin-right: -50px;
+            }
+          }
+          .home__brief {
+            padding: $pd-10 $pd-14 $pd-8 0;
+          }
+        }
+      }
+    }
+  }
+  @include responsive(1440px) {
+    .home__container {
+      .home__about {
+        .home__about__content {
+          .home__name {
+            h1 {
+              font-size: 3.8rem;
+              margin-right: -50px;
+            }
+          }
+        }
+      }
+    }
+  }
+  @include responsive($lg-screen) {
+    .home__container {
+      .home__about {
+        .home__about__content {
+          .home__name {
+            h1 {
+              font-size: 3rem;
+              margin-right: -50px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+#about {
+  @include responsive($lg-screen) {
+    padding: $pd-20 + 10 $pd-2;
+    .about__container {
+      width: 85%;
+      h1 {
+        font-size: 3.2rem;
+      }
+      .about__img {
+        height: 350px;
+        margin-bottom: $mg-10;
+        .img__container {
+          width: 70%;
+        }
+        &::before {
+          left: 11%;
+        }
+        &::after {
+          right: 11%;
+        }
+      }
+      .about__content {
+        padding: 0 $pd-2;
+        ul {
+          padding-right: $pd-6;
+          li {
+            padding: $pd-2 0;
+            .about__item {
+              .about__icon {
+                width: 7rem;
+                font-size: $fs-html;
+                margin-right: $mg-8;
+                i {
+                  font-size: $fs-html;
+                  margin-right: $mg-1;
+                }
+              }
+              .about__text {
+                font-size: $fs-html;
+              }
+            }
+          }
+          .about__social {
+            a {
+              margin-right: $mg-5;
+            }
+          }
+        }
+      }
+    }
+  }
+  @media screen and (min-width: 1201px) and (max-width: 1400px) {
+    padding: $pd-20 + 10 $pd-2;
+    .about__container {
+      .about__img {
+        .img__container {
+          width: 60%;
+        }
+        &::before {
+          left: 16.5%;
+        }
+        &::after {
+          right: 16.5%;
+        }
+      }
+      .about__content {
+        padding: 0 $pd-2;
+        ul {
+          padding-right: $pd-6;
+          li {
+            padding: $pd-2 0;
+            .about__item {
+              .about__icon {
+                width: 7rem;
+                font-size: $fs-html;
+                margin-right: $mg-8;
+                i {
+                  font-size: $fs-html;
+                  margin-right: $mg-1;
+                }
+              }
+              .about__text {
+                font-size: $fs-html;
+              }
+            }
+          }
+          .about__social {
+            a {
+              margin-right: $mg-5;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+#resume {
+  @include responsive(1400px) {
+    .resume__container {
+      width: 85%;
+      .resume__experience {
+        .resume__block {
+          .block__content {
+            h4 {
+              font-size: $fs-html;
+            }
+          }
+        }
+      }
+      .resume__education {
+        .resume__block {
+          .block__content {
+            h4 {
+              font-size: $fs-html;
+            }
+          }
+        }
+      }
+    }
+  }
+  @include responsive($lg-screen) {
+    .resume__container {
+      width: 85%;
+    }
+  }
+}
+
+#skills {
+  @include responsive($lg-screen) {
+    margin: 0 auto;
+    .skills__container {
+      width: 85%;
+      .skills__lg {
+        li {
+          margin: 0 0 $mg-8;
+        }
+      }
+    }
+  }
+}
+
+#footer {
+  @include responsive($lg-screen) {
+    .footer__form {
+      .footer__container {
+        .footer__info {
+          ul {
+            li {
+              p {
+                font-size: $fs-html;
+                margin-bottom: $mg-2;
+              }
+              span {
+                width: 100px;
+                font-size: $fs-1 + 2;
+                i {
+                  font-size: $fs-1 + 2;
+                }
+              }
+              a {
+                font-size: $fs-1 + 2;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

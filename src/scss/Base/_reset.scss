@@ -1,0 +1,22 @@
+html {
+  font-size: 16px;
+  overflow: scroll;
+  scroll-behavior: smooth;
+}
+
+body {
+  padding: 0;
+  overflow: scroll;
+  margin: 0;
+  // font-family: "Poppins", sans-serif;
+  font-family: "Noto Sans TC", sans-serif;
+}
+body::-webkit-scrollbar-track {
+  background-color: #ccc;
+}
+body::-webkit-scrollbar-thumb {
+  background-image: linear-gradient(to bottom, #ffa400, #00aefd);
+}
+body::-webkit-scrollbar {
+  width: 10px;
+}

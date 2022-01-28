@@ -1,0 +1,25 @@
+{
+  "name": "portfolio.github.io",
+  "version": "1.0.0",
+  "description": "My Portfolio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Vtquan123/portfolio.github.io.git"
+  },
+  "author": "Vu Quan",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Vtquan123/portfolio.github.io/issues"
+  },
+  "homepage": "https://github.com/Vtquan123/portfolio.github.io#readme",
+  "dependencies": {
+    "animate.css": "^4.1.1",
+    "materialize-css": "^1.0.0-rc.2",
+    "swiper": "^6.3.5",
+    "wowjs": "^1.1.3"
+  }
+}

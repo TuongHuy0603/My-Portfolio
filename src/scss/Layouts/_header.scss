@@ -1,0 +1,78 @@
+#header {
+  padding: 0 $pd-14;
+  margin-top: $mg-2;
+  background-color: transparent;
+  position: fixed;
+  display: block;
+  width: 100%;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  transition: all 0.3s;
+  &.header__on {
+    background-color: $color-white;
+    border-bottom: 1px solid $color-grey-4;
+    margin-top: 0;
+  }
+  .header__navbar {
+    max-width: 1600px;
+    margin: 0 auto;
+    .navbar__config {
+      background-color: transparent;
+      box-shadow: none;
+      .logo__config {
+        position: relative;
+        margin-left: 0;
+        i {
+          font-size: $fs-6;
+          line-height: 64px;
+          height: unset;
+          color: $color-red-3;
+        }
+        img {
+          position: absolute;
+          display: none;
+          height: 50px;
+          left: 0;
+          top: 50%;
+          transform: translateY(-50%);
+        }
+      }
+      ul {
+        li {
+          position: relative;
+          a {
+            color: $color-green-5;
+            font-weight: $fw-500;
+            padding: 0 $pd-6;
+            &:hover {
+              background-color: transparent;
+            }
+            &::after {
+              content: "";
+              width: 0;
+              height: 2px;
+              // background-color: transparent;
+              background-color: $color-green-7;
+              transition: all 0.3s;
+              position: absolute;
+              left: 50%;
+              transform: translate(-50%, -50%);
+              bottom: 15px;
+            }
+            &.active {
+              &::after {
+                width: 70%;
+              }
+            }
+          }
+          &:hover {
+            a::after {
+              width: 70%;
+            }
+          }
+        }
+      }
+    }
+  }
+}
